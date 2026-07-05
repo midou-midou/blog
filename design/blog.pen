@@ -1,0 +1,4485 @@
+{
+  "version": "2.13",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Blog Article Mobile",
+      "width": 390,
+      "height": 3340,
+      "fill": "$bg",
+      "cornerRadius": 28,
+      "stroke": "#E5E7EB",
+      "strokeWidth": 1,
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Imhkd",
+          "x": 18,
+          "y": 18,
+          "name": "Status Bar",
+          "width": 354,
+          "padding": 2,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "zoCrP",
+              "name": "Time",
+              "fill": "#1A1A1A",
+              "content": "09:41",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "WuVXV",
+              "name": "Status Meta",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R3N2i0",
+                  "name": "Signal",
+                  "fill": "#1A1A1A",
+                  "content": "5G",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "qSczC",
+                  "name": "Battery",
+                  "fill": "#1A1A1A",
+                  "content": "87%",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GouCb",
+          "x": 18,
+          "y": 55,
+          "name": "Header",
+          "width": 354,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zTRit",
+              "name": "Brand Stack",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VnhOu",
+                  "name": "Brand Row",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G03CHo",
+                      "name": "Journal Chip",
+                      "fill": "#635BFF",
+                      "cornerRadius": 9999,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000a",
+                        "offset": {
+                          "x": 0,
+                          "y": 1
+                        },
+                        "blur": 3
+                      },
+                      "padding": [
+                        7,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RxthB",
+                          "name": "Journal Chip Label",
+                          "fill": "#FFFFFF",
+                          "content": "MIDOU JOURNAL",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CzTI6",
+                      "name": "Edition",
+                      "fill": "#635BFF",
+                      "content": "Vol. 12",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "fPxmT",
+                  "name": "Section Label",
+                  "fill": "#6B7280",
+                  "content": "Mobile article / quiet interfaces",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tHpvb",
+              "name": "Theme Toggle",
+              "fill": "#F7F8FA",
+              "cornerRadius": 9999,
+              "gap": 6,
+              "padding": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EKr6m",
+                  "name": "Light Pill",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 9999,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "padding": [
+                    7,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZSzL0",
+                      "name": "Light Label",
+                      "fill": "#1A1A1A",
+                      "content": "Light",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "friEu",
+                  "name": "Dark Pill",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    7,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "u1HghA",
+                      "name": "Dark Label",
+                      "fill": "#FFFFFF",
+                      "content": "Dark",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Rcci1",
+          "x": 18,
+          "y": 123,
+          "name": "Hero Card",
+          "width": 354,
+          "fill": "#F7F8FA",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "q0N0h",
+              "name": "Hero Top Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NaLPg",
+                  "name": "Category Chip",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 9999,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "padding": [
+                    7,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xp4KB",
+                      "name": "Category Chip Label",
+                      "fill": "#635BFF",
+                      "content": "Design Essay",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "YUWfs",
+                  "name": "Read Meta",
+                  "fill": "#6B7280",
+                  "content": "17 Jun 2026  /  12 min read",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "O0BooF",
+              "name": "Hero Title",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Designing a blog that feels calm before it feels clever",
+              "lineHeight": 1,
+              "fontFamily": "Geist",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Bbslc",
+              "name": "Hero Deck",
+              "fill": "#4B5563",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A mobile article page can still feel editorial, tactile, and modern when hierarchy carries the drama instead of decoration.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Y5VF8I",
+              "name": "Hero Meta Cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vi6AD",
+                  "name": "Author Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G7XQK",
+                      "name": "Author Eyebrow",
+                      "fill": "#9CA3AF",
+                      "content": "Written by",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f25FD",
+                      "name": "Author Name",
+                      "fill": "#1A1A1A",
+                      "content": "M. Idrissi",
+                      "fontFamily": "Geist",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q5nioN",
+                      "name": "Author Role",
+                      "fill": "#4B5563",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Product systems and interface writing",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k9WQS",
+                  "name": "Stats Card",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p51woW",
+                      "name": "Stats Label",
+                      "fill": "#9CA3AF",
+                      "content": "Active readers",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m39KeE",
+                      "name": "Stats Value",
+                      "fill": "#FFFFFF",
+                      "content": "4,284",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xsPcC",
+                      "name": "Stats Note",
+                      "fill": "#D1D5DB",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Hierarchy stays intact when the palette flips.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T4vDMI",
+              "name": "Structure Preview",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000a",
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "blur": 3
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HxCeL",
+                  "name": "Preview Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N9ynrI",
+                      "name": "Preview Label",
+                      "fill": "#1A1A1A",
+                      "content": "Article rhythm",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "flYuW",
+                      "name": "Preview Data",
+                      "fill": "#6B7280",
+                      "content": "62% text / 38% breathing room",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Whafn",
+                  "name": "Preview Bars",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 9999,
+                      "id": "RGu8v",
+                      "name": "Lead Bar",
+                      "fill": "#1A1A1A",
+                      "width": "fill_container",
+                      "height": 10
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 9999,
+                      "id": "xBwoP",
+                      "name": "Second Bar",
+                      "fill": "#D1D5DB",
+                      "width": 238,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 9999,
+                      "id": "dFlPl",
+                      "name": "Third Bar",
+                      "fill": "#E5E7EB",
+                      "width": 186,
+                      "height": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "CmEhv",
+                  "name": "Preview Caption",
+                  "fill": "#4B5563",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The content opens with a full statement, then shortens the measure so scrolling feels deliberate instead of dense.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G8cyEp",
+          "x": 18,
+          "y": 905,
+          "name": "Opening Section",
+          "width": 354,
+          "fill": "#F7F8FA",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 18,
+          "children": [
+            {
+              "type": "text",
+              "id": "weqgZ",
+              "name": "Opening Eyebrow",
+              "fill": "#635BFF",
+              "content": "Opening note",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "c68ayy",
+              "name": "Opening Title",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Small screens reward structure that reads before it decorates.",
+              "lineHeight": 1.1,
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "NFoTR",
+              "name": "Opening Paragraph One",
+              "fill": "#374151",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Readers arrive on mobile with less patience and less space. The page needs one strong idea, a generous measure, and metadata that earns its place rather than competing with the headline.",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Kaaqw",
+              "name": "Opening Paragraph Two",
+              "fill": "#374151",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "That is why the surfaces stay nearly white, the type does the heavy lifting, and the only moments of contrast are the ones that clarify direction.",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "rUD5X",
+              "name": "Highlight Note",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 12,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000000a",
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "blur": 3
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EwB7u",
+                  "name": "Highlight Label",
+                  "fill": "#9CA3AF",
+                  "content": "Key sentence",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "B5uw2L",
+                  "name": "Highlight Quote",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Whitespace is not empty space on mobile. It is the pace-maker.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eLTtc",
+          "x": 18,
+          "y": 1412,
+          "name": "Quote Card",
+          "width": 354,
+          "fill": "#1A1A1A",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "VqDnr",
+              "name": "Quote Mark",
+              "fill": "#635BFF",
+              "content": "“",
+              "lineHeight": 0.9,
+              "fontFamily": "Geist",
+              "fontSize": 44,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "sr22Q",
+              "name": "Quote Body",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "If dark mode is part of the system, invert the surfaces without flattening the hierarchy.",
+              "lineHeight": 1.15,
+              "fontFamily": "Geist",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "z2JtK7",
+              "name": "Quote Source",
+              "fill": "#9CA3AF",
+              "content": "From the section on reversible UI tokens",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o7W7vv",
+          "x": 18,
+          "y": 1662,
+          "name": "Framework Section",
+          "width": 354,
+          "fill": "#F7F8FA",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 18,
+          "children": [
+            {
+              "type": "text",
+              "id": "YO8qy",
+              "name": "Framework Eyebrow",
+              "fill": "#635BFF",
+              "content": "Section index",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Q4Nm2j",
+              "name": "Framework Title",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Three moves that keep the article readable.",
+              "lineHeight": 1.1,
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "ThWQY",
+              "name": "Framework List",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qRbwp",
+                  "name": "Framework Item 01",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "gap": 12,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KZvxd",
+                      "name": "Number Pill 01",
+                      "fill": "#635BFF",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RHxPG",
+                          "name": "Number Text 01",
+                          "fill": "#FFFFFF",
+                          "content": "01",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tr0Bx",
+                      "name": "Item Copy 01",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "im7Kp",
+                          "name": "Item Title 01",
+                          "fill": "#1A1A1A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Lead with the argument",
+                          "fontFamily": "Geist",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B1vMa",
+                          "name": "Item Body 01",
+                          "fill": "#4B5563",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A decisive headline and compact metadata answer where the reader is before the scroll begins.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J2XofR",
+                  "name": "Framework Item 02",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "gap": 12,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MbU0a",
+                      "name": "Number Pill 02",
+                      "fill": "#635BFF",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "S6h7E",
+                          "name": "Number Text 02",
+                          "fill": "#FFFFFF",
+                          "content": "02",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YSjxi",
+                      "name": "Item Copy 02",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "p2GQll",
+                          "name": "Item Title 02",
+                          "fill": "#1A1A1A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Chunk the essay into quiet tiles",
+                          "fontFamily": "Geist",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D2aI2",
+                          "name": "Item Body 02",
+                          "fill": "#4B5563",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Rounded sections let the eye reset between ideas without turning the page into a dashboard.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NMDwf",
+                  "name": "Framework Item 03",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "gap": 12,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SWjVI",
+                      "name": "Number Pill 03",
+                      "fill": "#635BFF",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        8,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bvaWM",
+                          "name": "Number Text 03",
+                          "fill": "#FFFFFF",
+                          "content": "03",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ef3JR",
+                      "name": "Item Copy 03",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I1i9C",
+                          "name": "Item Title 03",
+                          "fill": "#1A1A1A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Reserve contrast for meaning",
+                          "fontFamily": "Geist",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FpFmi",
+                          "name": "Item Body 03",
+                          "fill": "#4B5563",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "One dark surface, one accent, and clear muted text are enough to support both light and dark modes.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XtXIo",
+          "x": 18,
+          "y": 2205,
+          "name": "Reading Path Section",
+          "width": 354,
+          "fill": "#F7F8FA",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 18,
+          "children": [
+            {
+              "type": "text",
+              "id": "W60ju",
+              "name": "Data Eyebrow",
+              "fill": "#635BFF",
+              "content": "Reading path",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Z4IbO",
+              "name": "Data Title",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Metadata stays supportive when it is grouped, sparse, and easy to scan.",
+              "lineHeight": 1.1,
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "U8E7N",
+              "name": "Reading Stats Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jcR9O",
+                  "name": "Reading Stats Column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BkVOt",
+                      "name": "Words Metric",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000a",
+                        "offset": {
+                          "x": 0,
+                          "y": 1
+                        },
+                        "blur": 3
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RSdRs",
+                          "name": "Words Label",
+                          "fill": "#9CA3AF",
+                          "content": "Words",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "S1qK30",
+                          "name": "Words Value",
+                          "fill": "#1A1A1A",
+                          "content": "2,184",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e83bYa",
+                      "name": "Sections Metric",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000a",
+                        "offset": {
+                          "x": 0,
+                          "y": 1
+                        },
+                        "blur": 3
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jsGXY",
+                          "name": "Sections Label",
+                          "fill": "#9CA3AF",
+                          "content": "Sections",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bETJP",
+                          "name": "Sections Value",
+                          "fill": "#1A1A1A",
+                          "content": "5",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b2KhL",
+                      "name": "Updated Metric",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000a",
+                        "offset": {
+                          "x": 0,
+                          "y": 1
+                        },
+                        "blur": 3
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jwfwp",
+                          "name": "Updated Label",
+                          "fill": "#9CA3AF",
+                          "content": "Updated",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zuZoO",
+                          "name": "Updated Value",
+                          "fill": "#1A1A1A",
+                          "content": "17 Jun 2026",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EKcRA",
+                  "name": "Tag Column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CHLkz",
+                      "name": "Topic Tags",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000000a",
+                        "offset": {
+                          "x": 0,
+                          "y": 1
+                        },
+                        "blur": 3
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D93RH",
+                          "name": "Tag Label",
+                          "fill": "#9CA3AF",
+                          "content": "Topics",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wrvxi",
+                          "name": "Tag List",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "BUfrd",
+                              "name": "Typography Chip",
+                              "fill": "#F7F8FA",
+                              "cornerRadius": 9999,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#0000000a",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 1
+                                },
+                                "blur": 3
+                              },
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "e8pniJ",
+                                  "name": "Typography Chip Label",
+                                  "fill": "#374151",
+                                  "content": "Typography",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Upyf8",
+                              "name": "Mobile UI Chip",
+                              "fill": "#F7F8FA",
+                              "cornerRadius": 9999,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#0000000a",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 1
+                                },
+                                "blur": 3
+                              },
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "J4iRf",
+                                  "name": "Mobile UI Chip Label",
+                                  "fill": "#374151",
+                                  "content": "Mobile UI",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "za3MT",
+                              "name": "Design systems Chip",
+                              "fill": "#F7F8FA",
+                              "cornerRadius": 9999,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#0000000a",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 1
+                                },
+                                "blur": 3
+                              },
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ISxfO",
+                                  "name": "Design systems Chip Label",
+                                  "fill": "#374151",
+                                  "content": "Design systems",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AVrgD",
+                      "name": "Mode Ready Card",
+                      "width": "fill_container",
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lgA84",
+                          "name": "Mode Label",
+                          "fill": "#9CA3AF",
+                          "content": "Dark mode ready",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "N7skmJ",
+                          "name": "Mode Body",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The neutral stack reverses cleanly because foreground contrast is carrying the meaning, not decoration.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "I6rO2",
+          "x": 18,
+          "y": 2904,
+          "name": "Footer Section",
+          "width": 354,
+          "fill": "#F7F8FA",
+          "cornerRadius": 16,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 18,
+          "children": [
+            {
+              "type": "text",
+              "id": "EiXbm",
+              "name": "Footer Eyebrow",
+              "fill": "#635BFF",
+              "content": "Next up",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "H224Ff",
+              "name": "Footer Title",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Building shadcn surfaces that survive dark mode.",
+              "lineHeight": 1.1,
+              "fontFamily": "Geist",
+              "fontSize": 20,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "nZmA4",
+              "name": "Footer Paragraph",
+              "fill": "#4B5563",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A follow-up on tone, spacing, and why the inverse surface should stay rare.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ZaOQ2",
+              "name": "Footer Actions",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Fr2JF",
+                  "name": "Primary Action",
+                  "width": "fill_container",
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 12,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "c4gHAq",
+                      "name": "Primary Label",
+                      "fill": "#FFFFFF",
+                      "content": "Read next",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sPDhD",
+                  "name": "Secondary Action",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000000a",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vmxuS",
+                      "name": "Secondary Label",
+                      "fill": "#1A1A1A",
+                      "content": "Share article",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "N88VRe",
+              "name": "Footer Note",
+              "fill": "#9CA3AF",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "MIDOU Journal  /  Issue 12  /  Minimal surfaces for long-form reading",
+              "lineHeight": 1.45,
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JUAUE",
+      "x": 420,
+      "y": 18,
+      "name": "Desktop Blog Artboard",
+      "clip": true,
+      "width": 522,
+      "fill": "$bg",
+      "cornerRadius": 24,
+      "stroke": "$border",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "gap": 14,
+      "padding": 14,
+      "children": [
+        {
+          "type": "frame",
+          "id": "d1ZFaM",
+          "name": "Browser Bar",
+          "width": "fill_container",
+          "fill": "$surface",
+          "cornerRadius": 999,
+          "stroke": "$border",
+          "strokeWidth": 1,
+          "padding": [
+            8,
+            12
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mO4P9",
+              "name": "Window Dots",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eqpwV",
+                  "name": "Window Dot",
+                  "width": 8,
+                  "height": 8,
+                  "fill": "$text",
+                  "cornerRadius": 999
+                },
+                {
+                  "type": "frame",
+                  "id": "ZwTKg",
+                  "name": "Window Dot",
+                  "width": 8,
+                  "height": 8,
+                  "fill": "$text-muted",
+                  "cornerRadius": 999
+                },
+                {
+                  "type": "frame",
+                  "id": "XJjXi",
+                  "name": "Window Dot",
+                  "width": 8,
+                  "height": 8,
+                  "fill": "$border",
+                  "cornerRadius": 999
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "S9OgBO",
+              "name": "Browser Label",
+              "fill": "$text-muted",
+              "content": "midou.dev / essays / calm-reading",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "rsUq2",
+              "name": "View Badge",
+              "fill": "$surface-subtle",
+              "cornerRadius": 999,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "padding": [
+                5,
+                9
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a2qCA",
+                  "name": "View Badge Label",
+                  "fill": "$text-muted",
+                  "content": "Desktop",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j6aq93",
+          "name": "Desktop Page",
+          "width": "fill_container",
+          "fill": "$surface",
+          "cornerRadius": 20,
+          "stroke": "$border",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 18,
+          "padding": 18,
+          "children": [
+            {
+              "type": "frame",
+              "id": "mn5EO",
+              "name": "Page Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qmArl",
+                  "name": "Brand Block",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w8BFbh",
+                      "name": "Brand Mark",
+                      "width": 12,
+                      "height": 12,
+                      "fill": "$text",
+                      "cornerRadius": 999
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H2uwvx",
+                      "name": "Brand Text",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eS733",
+                          "name": "Brand Name",
+                          "fill": "$text",
+                          "content": "MIDOU Journal",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "B1z4Z",
+                          "name": "Brand Meta",
+                          "fill": "$text-muted",
+                          "content": "Issue 12 / quiet interfaces",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PQZ5q",
+                  "name": "Header Nav",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w4cABR",
+                      "name": "Essays Chip",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EJjsY",
+                          "name": "Essays Label",
+                          "fill": "$text",
+                          "content": "Essays",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sJNV2",
+                      "name": "Archive Chip",
+                      "fill": "$surface",
+                      "cornerRadius": 999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KScPB",
+                          "name": "Archive Label",
+                          "fill": "$text-muted",
+                          "content": "Archive",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gF9uv",
+                      "name": "Dark-mode ready Chip",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WbaSh",
+                          "name": "Dark-mode ready Label",
+                          "fill": "$text-muted",
+                          "content": "Dark-mode ready",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uOABv",
+              "name": "Hero Block",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DLbOf",
+                  "name": "Hero Top Row",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GqThH",
+                      "name": "Category Chip",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aIfPK",
+                          "name": "Category Label",
+                          "fill": "$text-muted",
+                          "content": "Essay / Product reading",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jBoXK",
+                      "name": "Hero Meta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DJjtT",
+                          "name": "17 Jun 2026 Meta",
+                          "fill": "$surface-subtle",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            6,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tmdgL",
+                              "name": "17 Jun 2026 Label",
+                              "fill": "$text-muted",
+                              "content": "17 Jun 2026",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "osa1r",
+                          "name": "12 min read Meta",
+                          "fill": "$surface-subtle",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            6,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ax5ku",
+                              "name": "12 min read Label",
+                              "fill": "$text-muted",
+                              "content": "12 min read",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "F79bL",
+                          "name": "Light + Dark Meta",
+                          "fill": "$surface-subtle",
+                          "cornerRadius": 999,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            6,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WjKTK",
+                              "name": "Light + Dark Label",
+                              "fill": "$text-muted",
+                              "content": "Light + Dark",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "UZZNP",
+                  "name": "Hero Title",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Designing a blog page that feels quiet before it feels clever",
+                  "lineHeight": 1.02,
+                  "fontFamily": "Geist",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "pKDtu",
+                  "name": "Hero Deck",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The desktop version keeps one dominant reading column, moves utility into a narrow support rail, and lets dark mode invert the surfaces without flattening the hierarchy.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "mEROw",
+                  "name": "Hero Meta Strip",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QjCSG",
+                      "name": "Author Cell",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 14,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HfqlC",
+                          "name": "Author Label",
+                          "fill": "$text-muted",
+                          "content": "Author",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VBaBH",
+                          "name": "Author Value",
+                          "fill": "$text",
+                          "content": "Mina Park",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kNcDt",
+                      "name": "Focus Cell",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 14,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FFgHh",
+                          "name": "Focus Label",
+                          "fill": "$text-muted",
+                          "content": "Focus",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dRwaW",
+                          "name": "Focus Value",
+                          "fill": "$text",
+                          "content": "Type scale + spacing",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gnteX",
+                      "name": "System Cell",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 14,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fRyYw",
+                          "name": "System Label",
+                          "fill": "$text-muted",
+                          "content": "System",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EA2Hh",
+                          "name": "System Value",
+                          "fill": "$text",
+                          "content": "shadcn-inspired tokens",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mbRBS",
+                  "name": "Hero Figure",
+                  "width": "fill_container",
+                  "height": 172,
+                  "fill": "$surface-subtle",
+                  "cornerRadius": 18,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 14,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G5RdjU",
+                      "name": "Measure Preview",
+                      "width": 286,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mlWNO",
+                          "name": "Preview Title Group",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Ligmg",
+                              "name": "Preview Title Bar",
+                              "width": 184,
+                              "height": 16,
+                              "fill": "$text",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "frame",
+                              "id": "WC6kI",
+                              "name": "Preview Deck Bar",
+                              "width": "fill_container",
+                              "height": 10,
+                              "fill": "$border",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hOQDy",
+                              "name": "Preview Deck Short",
+                              "width": 236,
+                              "height": 10,
+                              "fill": "$border",
+                              "cornerRadius": 999
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hF86C",
+                          "name": "Preview Rows",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "jiS56",
+                              "name": "Preview Line",
+                              "width": 274,
+                              "height": 8,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "frame",
+                              "id": "eLvbM",
+                              "name": "Preview Line",
+                              "width": 252,
+                              "height": 8,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NVlgF",
+                              "name": "Preview Line",
+                              "width": 268,
+                              "height": 8,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "frame",
+                              "id": "N08XI8",
+                              "name": "Preview Line",
+                              "width": 232,
+                              "height": 8,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j2AbmM",
+                              "name": "Preview Line",
+                              "width": 244,
+                              "height": 8,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RuQ6B",
+                      "name": "Figure Note",
+                      "width": "fill_container",
+                      "fill": "$surface",
+                      "cornerRadius": 14,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JBBy1",
+                          "name": "Figure Tag",
+                          "fill": "$accent-soft",
+                          "cornerRadius": 999,
+                          "padding": [
+                            5,
+                            9
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "K4Lota",
+                              "name": "Figure Tag Label",
+                              "fill": "$text",
+                              "content": "Calm structure",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "CLgCz",
+                          "name": "Figure Note Title",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The left column carries attention. The rail removes decisions from the reading flow.",
+                          "lineHeight": 1.15,
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cfC7N",
+                          "name": "Figure Note Body",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Borders stay quiet, metadata stays compact, and the surface contrast does the rest.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xnGRR",
+              "name": "Main Content Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WON5T",
+                  "name": "Article Column",
+                  "width": 306,
+                  "layout": "vertical",
+                  "gap": 22,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "X2AS6R",
+                      "name": "Opening Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pKEdv",
+                          "name": "Opening Section Eyebrow",
+                          "fill": "$text-muted",
+                          "content": "Opening note",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XdCWI",
+                          "name": "Opening Section Title",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A desktop article should feel deliberate before it feels expressive.",
+                          "lineHeight": 1.08,
+                          "fontFamily": "Geist",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "j3Uy2",
+                          "name": "Opening Section Paragraph 1",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Long-form reading works when the page chooses one dominant task and protects it. On desktop, that means giving the article enough width to breathe while keeping utility visible but subordinate.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PHMFK",
+                          "name": "Opening Section Paragraph 2",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The quiet system here uses mostly white surfaces, restrained borders, and a compact metadata row. The typography carries the hierarchy, so the chrome can stay nearly invisible.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dnkTj",
+                      "name": "Reading Metrics",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "yunEI",
+                          "name": "Measure Metric",
+                          "width": "fill_container",
+                          "fill": "$surface-subtle",
+                          "cornerRadius": 14,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZVPze",
+                              "name": "Measure Metric Label",
+                              "fill": "$text-muted",
+                              "content": "Measure",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ZIYND",
+                              "name": "Measure Metric Value",
+                              "fill": "$text",
+                              "content": "66ch",
+                              "fontFamily": "Geist",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "d68lo",
+                          "name": "Sections Metric",
+                          "width": "fill_container",
+                          "fill": "$surface-subtle",
+                          "cornerRadius": 14,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ycbdf",
+                              "name": "Sections Metric Label",
+                              "fill": "$text-muted",
+                              "content": "Sections",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AyXbZ",
+                              "name": "Sections Metric Value",
+                              "fill": "$text",
+                              "content": "4",
+                              "fontFamily": "Geist",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WpTT4",
+                          "name": "Contrast Metric",
+                          "width": "fill_container",
+                          "fill": "$surface-subtle",
+                          "cornerRadius": 14,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 4,
+                          "padding": 12,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Q7eMHy",
+                              "name": "Contrast Metric Label",
+                              "fill": "$text-muted",
+                              "content": "Contrast",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DSFMy",
+                              "name": "Contrast Metric Value",
+                              "fill": "$text",
+                              "content": "AA",
+                              "fontFamily": "Geist",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jtvOP",
+                      "name": "Hierarchy Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dvOG3",
+                          "name": "Hierarchy Section Eyebrow",
+                          "fill": "$text-muted",
+                          "content": "Hierarchy over chrome",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mV6WM",
+                          "name": "Hierarchy Section Title",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "When metadata is sparse, it can sit near the title without competing with it.",
+                          "lineHeight": 1.08,
+                          "fontFamily": "Geist",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mCkum",
+                          "name": "Hierarchy Section Paragraph 1",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Each supporting element is compressed into a compact unit: date, read time, author, and system notes. Readers can scan them in a glance and return to the headline immediately.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Q2H5jO",
+                          "name": "Hierarchy Section Paragraph 2",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The right rail then absorbs navigation, author context, and subscription prompts. That separation keeps the article column clean and makes the layout feel responsive even before it actually stacks on smaller screens.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IpIqm",
+                      "name": "Pull Quote",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 16,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zidel",
+                          "name": "Pull Quote Mark",
+                          "fill": "$text-muted",
+                          "content": "“",
+                          "lineHeight": 0.9,
+                          "fontFamily": "Geist",
+                          "fontSize": 34,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t7iZ6n",
+                          "name": "Pull Quote Body",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Dark mode should invert the surfaces, not erase the hierarchy that helped the article read well in the first place.",
+                          "lineHeight": 1.15,
+                          "fontFamily": "Geist",
+                          "fontSize": 21,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wXeGH",
+                          "name": "Pull Quote Source",
+                          "fill": "$text-muted",
+                          "content": "From the section on reversible UI tokens",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n6Y5e",
+                      "name": "Rhythm Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kjQHG",
+                          "name": "Rhythm Section Eyebrow",
+                          "fill": "$text-muted",
+                          "content": "Desktop reading rhythm",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PXbta",
+                          "name": "Rhythm Section Title",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The body can stay mostly unboxed if the spacing rhythm is consistent.",
+                          "lineHeight": 1.08,
+                          "fontFamily": "Geist",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IdyWq",
+                          "name": "Rhythm Section Paragraph 1",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Large sections are separated by whitespace, not by heavy cards. Only the quote, the checklist, and the continuation block gain a stronger surface because they interrupt the reading pace on purpose.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KMx91",
+                          "name": "Rhythm Section Paragraph 2",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "That balance makes the composition feel editorial instead of dashboard-like, while still staying inside a pragmatic shadcn-inspired component language.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "niMes",
+                      "name": "Checklist Card",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 16,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VgKBv",
+                          "name": "Checklist Label",
+                          "fill": "$text-muted",
+                          "content": "Review checklist",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CrsaC",
+                          "name": "Checklist Title",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "What keeps this layout calm",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Geist",
+                          "fontSize": 19,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hCiUR",
+                          "name": "Checklist Item",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fZkYZ",
+                              "name": "Checklist Dot",
+                              "width": 8,
+                              "height": 8,
+                              "fill": "$text",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "text",
+                              "id": "JZOB5",
+                              "name": "Checklist Item Text",
+                              "fill": "$text-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "One dominant article measure with no competing panels.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "F9dkg",
+                          "name": "Checklist Item",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vq8of",
+                              "name": "Checklist Dot",
+                              "width": 8,
+                              "height": 8,
+                              "fill": "$text",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "text",
+                              "id": "o5VHtL",
+                              "name": "Checklist Item Text",
+                              "fill": "$text-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Support information grouped into a narrow rail with short labels.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "K8EIQ",
+                          "name": "Checklist Item",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "m5quCS",
+                              "name": "Checklist Dot",
+                              "width": 8,
+                              "height": 8,
+                              "fill": "$text",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "text",
+                              "id": "eyetf",
+                              "name": "Checklist Item Text",
+                              "fill": "$text-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "White-first surfaces, minimal borders, and dark-mode-safe token usage.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MDCUF",
+                      "name": "Continuation Card",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 16,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AWGh8",
+                          "name": "Continuation Label",
+                          "fill": "$text-muted",
+                          "content": "Next article",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "T0eJG",
+                          "name": "Continuation Title",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Building surface systems that survive dark mode",
+                          "lineHeight": 1.15,
+                          "fontFamily": "Geist",
+                          "fontSize": 20,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D0NLs",
+                          "name": "Continuation Body",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A follow-up on rare inverse surfaces, restrained shadows, and how to preserve the reading hierarchy when the palette flips.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EzT01",
+                          "name": "Continuation Meta",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "wQzbk",
+                              "name": "5 min read Continuation Chip",
+                              "fill": "$surface",
+                              "cornerRadius": 999,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                6,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "a91fUH",
+                                  "name": "5 min read Continuation Label",
+                                  "fill": "$text-muted",
+                                  "content": "5 min read",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "b3sLUp",
+                              "name": "Tokens + tone Continuation Chip",
+                              "fill": "$surface",
+                              "cornerRadius": 999,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "padding": [
+                                6,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "xecr8",
+                                  "name": "Tokens + tone Continuation Label",
+                                  "fill": "$text-muted",
+                                  "content": "Tokens + tone",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ERQss",
+                  "name": "Support Rail",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WfXEA",
+                      "name": "On This Page Card",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 16,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SHBOW",
+                          "name": "On This Page Label",
+                          "fill": "$text-muted",
+                          "content": "On this page",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s2X85",
+                          "name": "On This Page List",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "s1WGH",
+                              "name": "Opening note Row",
+                              "width": "fill_container",
+                              "fill": "$accent-soft",
+                              "cornerRadius": 12,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                8,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "f4eCVE",
+                                  "name": "Opening note Dot",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "$text",
+                                  "cornerRadius": 999
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "aqVTi",
+                                  "name": "Opening note Text",
+                                  "fill": "$text",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Opening note",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ScKXE",
+                              "name": "Hierarchy over chrome Row",
+                              "width": "fill_container",
+                              "fill": "$surface",
+                              "cornerRadius": 12,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                8,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "DW9VR",
+                                  "name": "Hierarchy over chrome Dot",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "$border",
+                                  "cornerRadius": 999
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "pk8Li",
+                                  "name": "Hierarchy over chrome Text",
+                                  "fill": "$text-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Hierarchy over chrome",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BTalN",
+                              "name": "Desktop rhythm Row",
+                              "width": "fill_container",
+                              "fill": "$surface",
+                              "cornerRadius": 12,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                8,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "WtRX3",
+                                  "name": "Desktop rhythm Dot",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "$border",
+                                  "cornerRadius": 999
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QG8iI",
+                                  "name": "Desktop rhythm Text",
+                                  "fill": "$text-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Desktop rhythm",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Ljlbn",
+                              "name": "Next article Row",
+                              "width": "fill_container",
+                              "fill": "$surface",
+                              "cornerRadius": 12,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                8,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "d4IQCf",
+                                  "name": "Next article Dot",
+                                  "width": 6,
+                                  "height": 6,
+                                  "fill": "$border",
+                                  "cornerRadius": 999
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "k042bM",
+                                  "name": "Next article Text",
+                                  "fill": "$text-muted",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Next article",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W6krS3",
+                      "name": "Author Card",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 16,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j4zLn",
+                          "name": "Author Card Label",
+                          "fill": "$text-muted",
+                          "content": "Author note",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KiETS",
+                          "name": "Author Row",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "GjK63",
+                              "name": "Author Avatar",
+                              "width": 36,
+                              "height": 36,
+                              "fill": "$accent-soft",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "UGxQu",
+                                  "name": "Author Initials",
+                                  "fill": "$text",
+                                  "content": "MP",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IhId7",
+                              "name": "Author Meta",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FJqxG",
+                                  "name": "Author Name",
+                                  "fill": "$text",
+                                  "content": "Mina Park",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ekm5G",
+                                  "name": "Author Role",
+                                  "fill": "$text-muted",
+                                  "content": "Product writer / interface systems",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "KX5EM",
+                          "name": "Author Card Body",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Writes about spacing, durable component language, and why editorial calm is usually a product decision first.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hKQmW",
+                      "name": "System Notes Card",
+                      "width": "fill_container",
+                      "fill": "$surface-subtle",
+                      "cornerRadius": 16,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WIezn",
+                          "name": "System Notes Label",
+                          "fill": "$text-muted",
+                          "content": "Why it works",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "C378b",
+                          "name": "System Note Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EDuAL",
+                              "name": "System Note Bar",
+                              "width": 10,
+                              "height": 10,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "text",
+                              "id": "hs5af",
+                              "name": "System Note Text",
+                              "fill": "$text-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "The left column stays wider than every other region.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I74hI",
+                          "name": "System Note Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "d6KTT",
+                              "name": "System Note Bar",
+                              "width": 10,
+                              "height": 10,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "text",
+                              "id": "uHrA9",
+                              "name": "System Note Text",
+                              "fill": "$text-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "The support rail only carries scan-friendly utilities.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jY93W",
+                          "name": "System Note Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "L19zS",
+                              "name": "System Note Bar",
+                              "width": 10,
+                              "height": 10,
+                              "fill": "$surface-strong",
+                              "cornerRadius": 999
+                            },
+                            {
+                              "type": "text",
+                              "id": "C8LI9",
+                              "name": "System Note Text",
+                              "fill": "$text-muted",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Every surface token already knows its dark mode counterpart.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EFrdn",
+                      "name": "Subscribe Card",
+                      "width": "fill_container",
+                      "fill": "$surface-strong",
+                      "cornerRadius": 16,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "X2tEsE",
+                          "name": "Subscribe Label",
+                          "fill": "$text-muted",
+                          "content": "Reading kit",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jDqKK",
+                          "name": "Subscribe Title",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Get the next essay with the layout notes attached.",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fcE2L",
+                          "name": "Subscribe Body",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Short delivery, no feed clutter, and one annotated desktop breakdown each month.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O4hJ3Q",
+                          "name": "Subscribe Action",
+                          "width": "fill_container",
+                          "fill": "$text",
+                          "cornerRadius": 12,
+                          "padding": [
+                            10,
+                            12
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jQJ40",
+                              "name": "Subscribe Action Label",
+                              "fill": "$surface",
+                              "content": "Join the journal",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MxlFF",
+              "name": "Page Footer",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wYfTJ",
+                  "name": "Page Footer Note",
+                  "fill": "$text-muted",
+                  "content": "Desktop composition only. Mobile stack on the left remains unchanged.",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 10,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "fKH7q",
+                  "name": "Footer Badge",
+                  "fill": "$surface-subtle",
+                  "cornerRadius": 999,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "padding": [
+                    5,
+                    9
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q5szB",
+                      "name": "Footer Badge Label",
+                      "fill": "$text-muted",
+                      "content": "Responsive in spirit",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "E4IIOq",
+      "x": 1008,
+      "y": 0,
+      "name": "Desktop Blog Page",
+      "clip": true,
+      "width": 1120,
+      "height": 637,
+      "fill": "$surface",
+      "cornerRadius": 24,
+      "stroke": "$border",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "IFlRU",
+          "name": "Desktop Header",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "j7KDBQ",
+              "name": "Header Brand",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RN89u",
+                  "name": "Header Logo",
+                  "width": 34,
+                  "height": 34,
+                  "fill": "$accent",
+                  "cornerRadius": 10,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HLRRv",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Header Logo Glyph",
+                      "fill": "$accent-foreground",
+                      "textGrowth": "fixed-width-height",
+                      "width": 34,
+                      "height": 34,
+                      "content": "B",
+                      "textAlign": "center",
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EeHY5",
+                  "name": "Header Brand Text",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IjCzl",
+                      "name": "Header Title",
+                      "fill": "$text",
+                      "content": "Northstar Blog",
+                      "fontFamily": "Geist",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d57dDX",
+                      "name": "Header Subtitle",
+                      "fill": "$text-muted",
+                      "content": "White-first editorial UI with dark mode",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z8KtF",
+              "name": "Header Nav",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "O8VIh0",
+                  "name": "Articles Nav Link",
+                  "fill": "$text-muted",
+                  "content": "Articles",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "oMCFu",
+                  "name": "Guides Nav Link",
+                  "fill": "$text-muted",
+                  "content": "Guides",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "b09YN",
+                  "name": "Topics Nav Link",
+                  "fill": "$text-muted",
+                  "content": "Topics",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "u1tOm",
+                  "name": "About Nav Link",
+                  "fill": "$text-muted",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pm5sa",
+          "name": "Desktop Hero Split",
+          "width": "fill_container",
+          "gap": 18,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Xz77I",
+              "name": "Article Column",
+              "width": 676,
+              "fill": "$surface-subtle",
+              "cornerRadius": 20,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h9nf8",
+                  "name": "Article Chip",
+                  "fill": "$accent-soft",
+                  "cornerRadius": 999,
+                  "gap": 6,
+                  "padding": [
+                    5,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E8zuzR",
+                      "name": "Article Chip Label",
+                      "fill": "$accent",
+                      "content": "Featured article",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "x3KS3",
+                  "name": "Article Title",
+                  "fill": "$text",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Designing a blog that stays readable in light mode and dark mode.",
+                  "lineHeight": 1.08,
+                  "fontFamily": "Geist",
+                  "fontSize": 34,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "u7m2nU",
+                  "name": "Article Deck",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The desktop version gives the article room to breathe: a dominant reading column, a restrained support rail, and surface treatments that feel familiar to shadcn without copying it literally.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "vapHJ",
+                  "name": "Article Meta Row",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hXCen",
+                      "name": "8 min read Meta Pill",
+                      "fill": "$surface",
+                      "cornerRadius": 999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 6,
+                      "padding": [
+                        7,
+                        11
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z6MM3Y",
+                          "name": "8 min read Meta Value",
+                          "fill": "$text",
+                          "content": "8 min read",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ejlWJ",
+                      "name": "June 2026 Meta Pill",
+                      "fill": "$surface",
+                      "cornerRadius": 999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 6,
+                      "padding": [
+                        7,
+                        11
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xRxHI",
+                          "name": "June 2026 Meta Value",
+                          "fill": "$text",
+                          "content": "June 2026",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NlZSc",
+                      "name": "White + dark Meta Pill",
+                      "fill": "$surface",
+                      "cornerRadius": 999,
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "gap": 6,
+                      "padding": [
+                        7,
+                        11
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kh4T7",
+                          "name": "White + dark Meta Value",
+                          "fill": "$text",
+                          "content": "White + dark",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e6YoS",
+                  "name": "Article Preview Card",
+                  "width": "fill_container",
+                  "fill": "$surface",
+                  "cornerRadius": 18,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "$shadow",
+                    "offset": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "blur": 3
+                  },
+                  "gap": 16,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "z007j3",
+                      "name": "Article Preview Media",
+                      "width": 240,
+                      "height": 180,
+                      "fill": "$accent-soft",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Lp0ld",
+                          "name": "Preview Badge Dot",
+                          "width": 20,
+                          "height": 20,
+                          "fill": "$accent",
+                          "cornerRadius": 999
+                        },
+                        {
+                          "type": "text",
+                          "id": "hYlpc",
+                          "name": "Preview Badge Label",
+                          "fill": "$accent",
+                          "content": "System UI",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G21LGw",
+                      "name": "Preview Text Stack",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dL04k",
+                          "name": "Preview Heading",
+                          "fill": "$text",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "A desktop layout should stretch hierarchy, not sentiment.",
+                          "lineHeight": 1.12,
+                          "fontFamily": "Geist",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RjECe",
+                          "name": "Preview Paragraph",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The article area stays dominant, the sidebar stays useful, and the theme switch gives a clear dark-mode mirror without extra decoration.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Irbnr",
+                          "name": "Preview CTA Row",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "IIKex",
+                              "name": "Primary Action",
+                              "fill": "$accent",
+                              "cornerRadius": 999,
+                              "gap": 6,
+                              "padding": [
+                                8,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cuI4S",
+                                  "name": "Primary Action Label",
+                                  "fill": "$accent-foreground",
+                                  "content": "Read article",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "EhkIP",
+                              "name": "Secondary Action",
+                              "fill": "$surface-subtle",
+                              "cornerRadius": 999,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "gap": 6,
+                              "padding": [
+                                8,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "P6oPe7",
+                                  "name": "Secondary Action Label",
+                                  "fill": "$text",
+                                  "content": "View archive",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yiE30",
+              "name": "Support Rail",
+              "width": 286,
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fPQwY",
+                  "name": "Author Card",
+                  "width": "fill_container",
+                  "fill": "$surface-subtle",
+                  "cornerRadius": 18,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LdgZO",
+                      "name": "Author Card Title",
+                      "fill": "$text",
+                      "content": "Author",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sTz5x",
+                      "name": "Author Card Body",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Northstar Journal explores the systems behind calm, durable interfaces.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "B3buh",
+                      "name": "Author Profile Row",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cGvNR",
+                          "name": "Avatar",
+                          "width": 42,
+                          "height": 42,
+                          "fill": "$accent-soft",
+                          "cornerRadius": 999,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LgUKQ",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Avatar Initial",
+                              "fill": "$accent",
+                              "textGrowth": "fixed-width-height",
+                              "width": 42,
+                              "height": 42,
+                              "content": "N",
+                              "textAlign": "center",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "D9l14",
+                          "name": "Profile Text",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "n3v2m",
+                              "name": "Profile Name",
+                              "fill": "$text",
+                              "content": "Northstar Team",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TFDHA",
+                              "name": "Profile Role",
+                              "fill": "$text-muted",
+                              "content": "Editorial design notes",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gmbhJ",
+                  "name": "Topics Card",
+                  "width": "fill_container",
+                  "fill": "$surface-subtle",
+                  "cornerRadius": 18,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IuMDJ",
+                      "name": "Topics Title",
+                      "fill": "$text",
+                      "content": "Topics",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QKAFm",
+                      "name": "Topics List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lQceK",
+                          "name": "Design systems Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "psruT",
+                              "name": "Design systems Bullet",
+                              "width": 22,
+                              "height": 22,
+                              "fill": "$surface",
+                              "cornerRadius": 8,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "riMZ6",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Design systems Bullet Mark",
+                                  "fill": "$accent",
+                                  "textGrowth": "fixed-width-height",
+                                  "width": 22,
+                                  "height": 22,
+                                  "content": "•",
+                                  "textAlign": "center",
+                                  "textAlignVertical": "middle",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "n9RYqE",
+                              "name": "Design systems Label",
+                              "fill": "$text",
+                              "content": "Design systems",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KFPC2",
+                          "name": "Layout rhythm Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "z1gCYQ",
+                              "name": "Layout rhythm Bullet",
+                              "width": 22,
+                              "height": 22,
+                              "fill": "$surface",
+                              "cornerRadius": 8,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "S3zjtT",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Layout rhythm Bullet Mark",
+                                  "fill": "$accent",
+                                  "textGrowth": "fixed-width-height",
+                                  "width": 22,
+                                  "height": 22,
+                                  "content": "•",
+                                  "textAlign": "center",
+                                  "textAlignVertical": "middle",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "GIr8x",
+                              "name": "Layout rhythm Label",
+                              "fill": "$text",
+                              "content": "Layout rhythm",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hHyG2",
+                          "name": "Typography Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mK8aJ",
+                              "name": "Typography Bullet",
+                              "width": 22,
+                              "height": 22,
+                              "fill": "$surface",
+                              "cornerRadius": 8,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "pBRgz",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Typography Bullet Mark",
+                                  "fill": "$accent",
+                                  "textGrowth": "fixed-width-height",
+                                  "width": 22,
+                                  "height": 22,
+                                  "content": "•",
+                                  "textAlign": "center",
+                                  "textAlignVertical": "middle",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "ryaZa",
+                              "name": "Typography Label",
+                              "fill": "$text",
+                              "content": "Typography",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ar5AZ",
+                          "name": "Dark mode Row",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "JY21o",
+                              "name": "Dark mode Bullet",
+                              "width": 22,
+                              "height": 22,
+                              "fill": "$surface",
+                              "cornerRadius": 8,
+                              "stroke": "$border",
+                              "strokeWidth": 1,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "KYipn",
+                                  "x": 0,
+                                  "y": 0,
+                                  "name": "Dark mode Bullet Mark",
+                                  "fill": "$accent",
+                                  "textGrowth": "fixed-width-height",
+                                  "width": 22,
+                                  "height": 22,
+                                  "content": "•",
+                                  "textAlign": "center",
+                                  "textAlignVertical": "middle",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "BOIpr",
+                              "name": "Dark mode Label",
+                              "fill": "$text",
+                              "content": "Dark mode",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H4pCTn",
+                  "name": "Subscribe Card",
+                  "width": "fill_container",
+                  "fill": "$accent",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RUCBQ",
+                      "name": "Subscribe Title",
+                      "fill": "$accent-foreground",
+                      "content": "Subscribe",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z3Sl9",
+                      "name": "Subscribe Body",
+                      "fill": "$accent-foreground",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A brief weekly note on interface structure, contrast, and calm product surfaces.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DpsZZ",
+                      "name": "Subscribe Button",
+                      "fill": "$surface",
+                      "cornerRadius": 999,
+                      "gap": 6,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CdSf8",
+                          "name": "Subscribe Button Label",
+                          "fill": "$text",
+                          "content": "Get updates",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NPYUW",
+          "name": "Desktop Footer",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xEB8O",
+              "name": "Footer Note",
+              "fill": "$text-muted",
+              "textGrowth": "fixed-width",
+              "width": 460,
+              "content": "The desktop page keeps the article dominant and the support rail subordinate to preserve hierarchy.",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "edpjR",
+              "name": "Mode Badge",
+              "fill": "$surface-subtle",
+              "cornerRadius": 999,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "gap": 6,
+              "padding": [
+                7,
+                11
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Sv1xc",
+                  "name": "Mode Badge Label",
+                  "fill": "$text",
+                  "content": "Dark mode ready",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Mode": [
+      "Light",
+      "Dark"
+    ]
+  },
+  "variables": {
+    "accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111827",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#F8FAFC",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#111827",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "accent-soft": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DBEAFE",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#1E293B",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F8FAFC",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#0A0A0A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E2E8F0",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#2A2A2A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "radius": {
+      "type": "number",
+      "value": 16
+    },
+    "shadow": {
+      "type": "color",
+      "value": "#00000014"
+    },
+    "surface": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "surface-strong": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#EEF2F7",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#1F1F1F",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "surface-subtle": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F4F6F8",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#0F172A",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#F8FAFC",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "text-muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#475569",
+          "theme": {
+            "Mode": "Light"
+          }
+        },
+        {
+          "value": "#94A3B8",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    }
+  }
+}

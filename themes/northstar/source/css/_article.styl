@@ -1,0 +1,343 @@
+// Article page styles
+.article-page
+  responsive()
+  padding-top $space-9
+
+.article-content-split
+  display flex
+  gap $gap
+
+  @media (max-width: $tablet)
+    flex-direction column
+
+// Article Column
+.article-column
+  flex 1
+  max-width $article-width
+
+  @media (max-width: $tablet)
+    max-width 100%
+
+// Hero section
+.article-hero
+  margin-bottom $space-7
+
+  .hero-top-row
+    display flex
+    align-items center
+    justify-content space-between
+    margin-bottom $space-5
+
+  .hero-meta
+    display flex
+    align-items center
+    gap $space-4
+    font-family $font-mono
+    font-size $font-sm
+    color $text-muted
+
+.article-title
+  font-family $font-display
+  font-size $font-5xl
+  font-weight 700
+  line-height 1.08
+  color $text
+  margin-bottom $space-5
+
+.article-deck
+  font-family $font-body
+  font-size $font-md
+  color $text-muted
+  line-height 1.55
+  margin-bottom $space-7
+
+// Author card inline
+.author-card
+  margin-bottom $space-7
+
+.author-name
+  font-family $font-display
+  font-size $font-xl
+  font-weight 600
+  color $text
+
+.author-bio
+  font-family $font-body
+  font-size 13px
+  color $text-muted
+  line-height 1.45
+
+// Article entry (rendered markdown)
+.article-entry
+  font-family $font-body
+  font-size $font-md
+  color $text-secondary
+  line-height 1.6
+
+  h1, h2, h3, h4, h5, h6
+    font-family $font-display
+    color $text
+    margin-top 2em
+    margin-bottom 0.5em
+
+  h1
+    font-size $font-3xl
+    font-weight 700
+    line-height 1.1
+
+  h2
+    font-size $font-2xl
+    font-weight 600
+    line-height 1.1
+
+  h3
+    font-size $font-xl
+    font-weight 600
+    line-height 1.2
+
+  h4
+    font-size $font-lg
+    font-weight 600
+
+  p
+    margin-bottom 1.2em
+
+  a
+    color $accent
+    text-decoration underline
+    text-underline-offset 2px
+
+    &:hover
+      opacity 0.8
+
+  strong
+    font-weight 600
+    color $text
+
+  ul, ol
+    margin-bottom 1.2em
+    padding-left 1.5em
+
+  li
+    margin-bottom 0.4em
+
+  blockquote
+    border-left 3px solid $accent
+    padding $space-5 $space-7
+    margin 1.5em 0
+    background $surface-subtle
+    border-radius 0 $radius-md $radius-md 0
+    color $text-muted
+    font-style normal
+
+    p:last-child
+      margin-bottom 0
+
+  img
+    border-radius $radius-lg
+    margin 1.5em 0
+
+  code
+    font-family $font-mono
+    font-size 0.9em
+    background $surface-subtle
+    padding 2px 6px
+    border-radius 4px
+
+  pre
+    background $surface-subtle
+    border 1px solid $border
+    border-radius $radius-lg
+    padding $space-7
+    overflow-x auto
+    margin 1.5em 0
+
+    code
+      background none
+      padding 0
+      border-radius 0
+
+  table
+    width 100%
+    border-collapse collapse
+    margin 1.5em 0
+    font-size $font-base
+
+    th
+      background $surface-subtle
+      font-weight 600
+      text-align left
+      padding $space-5 $space-6
+      border 1px solid $border
+
+    td
+      padding $space-5 $space-6
+      border 1px solid $border
+
+  hr
+    border none
+    border-top 1px solid $border
+    margin 2em 0
+
+// Article footer
+.article-footer
+  margin-top $space-9 * 2
+  border-top 1px solid $border
+  padding-top $space-9
+
+.tag-list
+  display flex
+  align-items center
+  flex-wrap wrap
+  gap $space-4
+
+.tag-label
+  font-family $font-mono
+  font-size $font-sm
+  color $text-eyebrow
+
+// Next article card
+.next-article
+  margin-top $space-9
+
+.next-title
+  font-family $font-display
+  font-size $font-xl
+  font-weight 600
+  color $text
+  margin-bottom $space-5
+
+  a
+    color inherit
+
+    &:hover
+      color $accent
+
+// Meta strip
+.hero-meta-strip
+  display flex
+  gap $space-4
+  flex-wrap wrap
+
+.meta-cell
+  display flex
+  flex-direction column
+  gap $space-1
+
+.meta-label
+  font-family $font-body
+  font-size $font-sm
+  color $text-eyebrow
+
+.meta-value
+  font-family $font-mono
+  font-size $font-base
+  font-weight 600
+  color $text
+
+// Read time pill
+.read-time-pill
+  font-family $font-mono
+  font-size $font-sm
+  color $text-muted
+
+.meta-date
+  font-family $font-mono
+  font-size $font-sm
+  color $text-muted
+
+.meta-sep
+  color $border
+  margin 0 $space-2
+
+// Highlight / pull quote card
+.highlight-card
+  card-base()
+  padding $space-6
+
+.highlight-label
+  font-family $font-body
+  font-size $font-sm
+  color $text-eyebrow
+  margin-bottom $space-2
+
+.highlight-quote
+  font-family $font-display
+  font-size $font-xl
+  font-weight 600
+  color $text
+  line-height 1.2
+
+.quote-card
+  border-radius $radius-lg
+  background $surface-strong
+  padding $space-9
+  color $accent-foreground
+  margin 1.5em 0
+
+  .quote-mark
+    font-family $font-display
+    font-size 44px
+    color $accent
+    line-height 0.9
+
+  .quote-body
+    font-family $font-display
+    font-size $font-3xl
+    font-weight 600
+    line-height 1.15
+    margin-top $space-5
+
+  .quote-source
+    font-family $font-body
+    font-size 13px
+    color #9CA3AF
+    margin-top $space-5
+
+// Back to top button with scroll progress ring
+.back-to-top
+  position fixed
+  bottom $space-9 * 2
+  right $space-9
+  width 44px
+  height 44px
+  z-index 100
+  opacity 0
+  visibility hidden
+  transition opacity 0.3s, visibility 0.3s
+  cursor pointer
+
+  &.visible
+    opacity 1
+    visibility visible
+
+.progress-ring
+  position absolute
+  top 0
+  left 0
+  width 44px
+  height 44px
+  transform rotate(-90deg)
+
+.progress-ring-bg
+  stroke $border
+
+.progress-ring-fill
+  stroke $accent
+  stroke-linecap round
+  transition stroke-dashoffset 0.1s
+
+.back-to-top-icon
+  position absolute
+  top 50%
+  left 50%
+  transform translate(-50%, -50%)
+  font-family $font-body
+  font-size 16px
+  font-weight 600
+  color $text-muted
+  line-height 1
+
+.back-to-top:hover
+  .back-to-top-icon
+    color $accent

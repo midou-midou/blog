@@ -1,0 +1,30 @@
+# Northstar theme configuration
+menu:
+  Home: /
+  Archives: /archives
+
+rss: /atom.xml
+
+# Sidebar
+sidebar: right
+
+# Excerpt link
+excerpt_link: Read more
+
+# Number of featured posts on home page
+featured_count: 1
+
+# Posts per row on archive page
+posts_per_row: 10
+
+# GLightBox image lightroom
+midou-lightroom:
+  enable: true
+  options:
+    touchNavigation: true
+    loop: false
+    zoomable: true
+    draggable: true
+    openEffect: zoom
+    closeEffect: zoom
+    slideEffect: slide

@@ -1,0 +1,115 @@
+<% if (!index && post.toc){ %>
+<aside class="toc-sidebar" id="toc">
+  <div class="toc-card card">
+    <span class="toc-label">On this page</span>
+    <div class="toc-content">
+      <%- toc(post.content) %>
+    </div>
+  </div>
+</aside>
+<% } %>
+
+<article class="article-page" itemscope itemprop="blogPost">
+  <div class="article-content-split">
+    <div class="article-column">
+      <!-- Hero Section -->
+      <section class="article-hero">
+        <div class="hero-top-row">
+          <% if (post.categories && post.categories.length){ %>
+            <span class="chip chip-accent"><%= post.categories.first().name %></span>
+          <% } %>
+          <div class="hero-meta">
+            <span class="meta-date"><%= date(post.date, 'D MMM YYYY') %></span>
+            <%- partial('read-time', {post: post}) %>
+          </div>
+        </div>
+        <h1 class="article-title"><%= post.title %></h1>
+        <% if (post.excerpt && !post.content.includes('<!-- more -->')){ %>
+          <p class="article-deck"><%= strip_html(post.excerpt) %></p>
+        <% } %>
+      </section>
+
+      <!-- Author Card -->
+      <div class="author-card card">
+        <span class="card-label">Written by</span>
+        <span class="author-name"><%= post.author || config.author %></span>
+      </div>
+
+      <!-- Article Body -->
+      <div class="article-entry" itemprop="articleBody">
+        <%- post.content %>
+      </div>
+
+      <!-- Article Footer -->
+      <footer class="article-footer">
+        <div class="footer-tags">
+          <% if (post.tags && post.tags.length){ %>
+            <div class="tag-list">
+              <span class="tag-label">Topics</span>
+              <% post.tags.forEach(function(tag){ %>
+                <a href="<%- url_for(tag.path) %>" class="chip chip-topic"><%= tag.name %></a>
+              <% }) %>
+            </div>
+          <% } %>
+        </div>
+
+        <!-- Next Article -->
+        <% if (post.next){ %>
+        <div class="next-article card">
+          <span class="card-eyebrow">Next up</span>
+          <h3 class="next-title"><a href="<%- url_for(post.next.path) %>"><%= post.next.title %></a></h3>
+          <a href="<%- url_for(post.next.path) %>" class="btn btn-primary">Read next</a>
+        </div>
+        <% } %>
+      </footer>
+    </div>
+
+    <!-- Support Rail -->
+    <aside class="support-rail">
+      <% if (post.toc){ %>
+      <div class="toc-card card">
+        <span class="toc-label">On this page</span>
+        <div class="toc-content">
+          <%- toc(post.content) %>
+        </div>
+      </div>
+      <% } %>
+
+      <div class="sidebar-author-card card">
+        <span class="card-label">Author</span>
+        <span class="author-name"><%= post.author || config.author %></span>
+        <% if (config.subtitle){ %>
+          <p class="author-bio"><%= config.subtitle %></p>
+        <% } %>
+      </div>
+
+      <div class="reading-stats-card card">
+        <span class="card-label">Reading path</span>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-label">Published</span>
+            <span class="stat-value"><%= date(post.date, 'D MMM YYYY') %></span>
+          </div>
+          <% if (post.tags && post.tags.length){ %>
+          <div class="stat-item">
+            <span class="stat-label">Topics</span>
+            <div class="stat-tags">
+              <% post.tags.forEach(function(tag){ %>
+                <a href="<%- url_for(tag.path) %>" class="chip chip-topic"><%= tag.name %></a>
+              <% }) %>
+            </div>
+          </div>
+          <% } %>
+        </div>
+      </div>
+    </aside>
+  </div>
+</article>
+
+<div class="back-to-top" id="back-to-top">
+  <svg class="progress-ring" viewBox="0 0 44 44">
+    <circle class="progress-ring-bg" cx="22" cy="22" r="20" fill="none" stroke-width="2"/>
+    <circle class="progress-ring-fill" cx="22" cy="22" r="20" fill="none" stroke-width="2" stroke-dasharray="125.6" stroke-dashoffset="125.6"/>
+  </svg>
+  <span class="back-to-top-icon">&uarr;</span>
+</div>

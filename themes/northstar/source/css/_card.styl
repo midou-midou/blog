@@ -1,0 +1,82 @@
+// Card and chip components
+.card
+  card-base()
+  padding $space-7
+
+.card-label
+  display block
+  font-family $font-body
+  font-size $font-sm
+  font-weight normal
+  color $text-eyebrow
+  margin-bottom $space-2
+
+.card-eyebrow
+  display block
+  font-family $font-mono
+  font-size $font-xs
+  font-weight normal
+  color $accent
+  margin-bottom $space-2
+
+// Chips
+.chip
+  display inline-flex
+  align-items center
+  border-radius $radius-pill
+  font-family $font-mono
+  font-size $font-sm
+  font-weight 500
+  padding $space-2 $space-3
+
+.chip-accent
+  background $accent-soft
+  color $accent
+  font-family $font-body
+  font-weight 500
+  padding 5px 10px
+
+.chip-topic
+  background $surface-subtle
+  color $text-secondary
+  border 1px solid $border
+  padding 5px 10px
+  font-family $font-body
+  font-size $font-sm
+  font-weight 500
+  transition all 0.15s
+
+  &:hover
+    border-color $accent
+    color $accent
+
+// Buttons
+.btn
+  display inline-flex
+  align-items center
+  justify-content center
+  border-radius $radius-md
+  font-family $font-body
+  font-size 13px
+  font-weight 600
+  padding $space-3 $space-5
+  border none
+  cursor pointer
+  transition all 0.15s
+  text-decoration none
+
+.btn-primary
+  background $surface-strong
+  color $accent-foreground
+
+  &:hover
+    opacity 0.85
+
+.btn-secondary
+  background $surface
+  color $text
+  border 1px solid $border
+  box-shadow $shadow
+
+  &:hover
+    border-color $accent

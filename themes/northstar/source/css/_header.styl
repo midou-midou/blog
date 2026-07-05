@@ -1,0 +1,106 @@
+// Header styles
+.site-header
+  background $surface
+  border-bottom 1px solid $border
+  position sticky
+  top 0
+  z-index 100
+
+.header-inner
+  responsive()
+  display flex
+  align-items center
+  justify-content space-between
+  height 60px
+  gap $space-9
+
+.header-brand
+  display flex
+  align-items center
+  gap $space-5
+
+.brand-mark
+  width 34px
+  height 34px
+  border-radius $radius-sm
+  background $accent
+  color $accent-foreground
+  font-family $font-mono
+  font-size $font-base
+  font-weight 700
+  display flex
+  align-items center
+  justify-content center
+  flex-shrink 0
+
+.brand-text
+  display flex
+  flex-direction column
+  gap 1px
+
+.brand-title
+  font-family $font-display
+  font-size 16px
+  font-weight 600
+  color $text
+
+.brand-subtitle
+  font-family $font-body
+  font-size $font-xs
+  color $text-muted
+
+.header-nav
+  display flex
+  align-items center
+  gap 16px
+
+  @media (max-width: $tablet)
+    display none
+
+.nav-link
+  font-family $font-body
+  font-size $font-sm
+  font-weight 500
+  color $text-muted
+  transition color 0.15s
+
+  &:hover
+    color $text
+
+.header-actions
+  display flex
+  align-items center
+
+.theme-toggle
+  display flex
+  align-items center
+  background $surface-subtle
+  border-radius $radius-pill
+  padding $space-2
+  border none
+  cursor pointer
+  gap $space-2
+
+.toggle-light,
+.toggle-dark
+  font-family $font-body
+  font-size $font-sm
+  font-weight 600
+  border-radius $radius-pill
+  padding $space-2 10px
+  transition all 0.15s
+  line-height 1
+
+.toggle-light
+  color $text
+
+  &.active
+    background $surface
+    box-shadow $shadow
+
+.toggle-dark
+  color $text-muted
+
+  &.active
+    background $surface-strong
+    color $accent-foreground

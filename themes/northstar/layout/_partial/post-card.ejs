@@ -1,0 +1,15 @@
+<a href="<%- url_for(post.path) %>" class="post-card card">
+  <div class="post-card-top">
+    <% if (post.categories && post.categories.length){ %>
+      <span class="chip chip-accent"><%= post.categories.first().name %></span>
+    <% } %>
+    <span class="meta-date"><%= date(post.date, 'D MMM YYYY') %></span>
+  </div>
+  <h3 class="post-card-title"><%= post.title %></h3>
+  <% if (post.excerpt){ %>
+    <p class="post-card-excerpt"><%= strip_html(post.excerpt).substring(0, 120) %></p>
+  <% } %>
+  <div class="post-card-footer">
+    <span class="read-link">Read article &rarr;</span>
+  </div>
+</a>

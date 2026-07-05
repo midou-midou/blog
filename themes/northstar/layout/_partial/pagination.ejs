@@ -1,0 +1,9 @@
+<% if (page.total > 1){ %>
+<nav class="pagination">
+  <% var prev_text = "&larr; Newer"; var next_text = "Older &rarr;"; %>
+  <%- paginator({
+    prev_text: prev_text,
+    next_text: next_text
+  }) %>
+</nav>
+<% } %>

@@ -1,0 +1,25 @@
+<div class="archive-page">
+  <div class="section-header">
+    <span class="section-eyebrow">Archive</span>
+  </div>
+  <% var last_year = 0; %>
+  <% page.posts.each(function(post){ %>
+    <% var year = post.date.year(); %>
+    <% if (last_year !== year){ %>
+      <% if (last_year !== 0){ %>
+        </div>
+      <% } %>
+      <h2 class="archive-year"><%= year %></h2>
+      <div class="archive-list">
+      <% last_year = year; %>
+    <% } %>
+    <a href="<%- url_for(post.path) %>" class="archive-item card">
+      <span class="archive-date"><%= date(post.date, 'MMM D') %></span>
+      <span class="archive-title"><%= post.title %></span>
+    </a>
+  <% }) %>
+  <% if (page.posts.length){ %>
+    </div>
+  <% } %>
+  <%- partial('_partial/pagination') %>
+</div>

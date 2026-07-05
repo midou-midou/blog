@@ -1,0 +1,45 @@
+// Archive page styles
+.archive-page
+  responsive()
+  padding-top $space-9
+  padding-bottom $space-9
+
+.archive-year
+  font-family $font-display
+  font-size $font-2xl
+  font-weight 600
+  color $text
+  margin-bottom $space-5
+  margin-top $space-9
+
+  &:first-child
+    margin-top 0
+
+.archive-list
+  display flex
+  flex-direction column
+  gap $space-4
+  margin-bottom $space-7
+
+.archive-item
+  card-base()
+  padding $space-5 $space-7
+  display flex
+  align-items center
+  gap $space-6
+  transition border-color 0.15s
+
+  &:hover
+    border-color $accent
+
+.archive-date
+  font-family $font-mono
+  font-size $font-sm
+  color $text-muted
+  flex-shrink 0
+
+.archive-title
+  font-family $font-display
+  font-size $font-base
+  font-weight 500
+  color $text

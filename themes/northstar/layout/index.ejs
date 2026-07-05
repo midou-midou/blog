@@ -1,0 +1,55 @@
+<div class="home-page">
+  <div class="home-layout">
+    <main class="home-main">
+      <% var featured = page.posts.first(); %>
+      <% var restPosts = page.posts.filter(function(p){ return p !== featured; }); %>
+      <% if (featured){ %>
+      <section class="hero-section">
+        <div class="hero-card">
+          <div class="hero-top-row">
+            <span class="chip chip-accent">Featured article</span>
+            <div class="hero-meta">
+              <%- partial('_partial/read-time', {post: featured}) %>
+              <span class="meta-sep">/</span>
+              <span class="meta-date"><%= date(featured.date, 'MMM YYYY') %></span>
+            </div>
+          </div>
+          <h1 class="hero-title"><a href="<%- url_for(featured.path) %>"><%= featured.title %></a></h1>
+          <% if (featured.excerpt){ %>
+            <p class="hero-deck"><%= strip_html(featured.excerpt).substring(0, 160) %></p>
+          <% } %>
+          <div class="hero-meta-strip">
+            <div class="meta-cell">
+              <span class="meta-label">Author</span>
+              <span class="meta-value"><%= featured.author || config.author %></span>
+            </div>
+            <div class="meta-cell">
+              <span class="meta-label">Published</span>
+              <span class="meta-value"><%= date(featured.date, 'D MMM YYYY') %></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <% } %>
+
+      <section class="articles-section">
+        <div class="section-header">
+          <span class="section-eyebrow">All articles</span>
+          <span class="section-count"><%= restPosts.length %> posts</span>
+        </div>
+        <div class="articles-grid">
+          <% restPosts.forEach(function(post){ %>
+            <%- partial('_partial/post-card', {post: post}) %>
+          <% }) %>
+        </div>
+      </section>
+
+      <% if (page.total > 1){ %>
+        <%- partial('_partial/pagination') %>
+      <% } %>
+    </main>
+    <aside class="support-rail">
+      <%- partial('_partial/sidebar') %>
+    </aside>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<aside class="sidebar">
+  <div class="sidebar-author card">
+    <span class="card-label">Author</span>
+    <span class="author-name"><%= config.author %></span>
+    <% if (config.subtitle){ %>
+      <p class="author-bio"><%= config.subtitle %></p>
+    <% } %>
+  </div>
+
+  <% if (site.tags.length){ %>
+  <div class="sidebar-topics card">
+    <span class="card-label">Topics</span>
+    <div class="topic-list">
+      <% site.tags.forEach(function(tag){ %>
+        <a href="<%- url_for(tag.path) %>" class="chip chip-topic"><%= tag.name %></a>
+      <% }) %>
+    </div>
+  </div>
+  <% } %>
+</aside>

@@ -1,0 +1,14 @@
+<div class="archive-page">
+  <div class="section-header">
+    <span class="section-eyebrow">Category: <%= page.category %></span>
+  </div>
+  <div class="archive-list">
+    <% page.posts.each(function(post){ %>
+      <a href="<%- url_for(post.path) %>" class="archive-item card">
+        <span class="archive-date"><%= date(post.date, 'MMM D YYYY') %></span>
+        <span class="archive-title"><%= post.title %></span>
+      </a>
+    <% }) %>
+  </div>
+  <%- partial('_partial/pagination') %>
+</div>

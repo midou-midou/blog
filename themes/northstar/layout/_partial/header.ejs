@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <a href="<%- url_for() %>" class="brand-mark"><%= config.title.charAt(0) %></a>
+      <div class="brand-text">
+        <a href="<%- url_for() %>" class="brand-title"><%= config.title %></a>
+        <% if (config.subtitle){ %>
+          <span class="brand-subtitle"><%= config.subtitle %></span>
+        <% } %>
+      </div>
+    </div>
+    <nav class="header-nav">
+      <% for (var name in theme.menu){ %>
+        <a href="<%- url_for(theme.menu[name]) %>" class="nav-link"><%= name %></a>
+      <% } %>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <span class="toggle-light">Light</span>
+        <span class="toggle-dark">Dark</span>
+      </button>
+    </div>
+  </div>
+</header>

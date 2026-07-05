@@ -1,0 +1,23 @@
+// Utility mixins
+
+responsive($max-width = $max-width)
+  max-width $max-width
+  margin 0 auto
+  padding 0 $space-12
+
+  @media (max-width: $tablet)
+    padding 0 $space-7
+
+card-base()
+  border-radius $radius-lg
+  background $surface
+  border 1px solid $border
+  box-shadow $shadow
+
+pill-base()
+  border-radius $radius-pill
+  display inline-flex
+  align-items center
+  font-family $font-mono
+  font-size $font-sm
+  font-weight 500

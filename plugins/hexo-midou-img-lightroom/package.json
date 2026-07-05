@@ -1,0 +1,9 @@
+{
+  "name": "hexo-midou-img-lightroom",
+  "version": "1.0.0",
+  "description": "GLightBox image lightroom plugin for Hexo",
+  "main": "index.js",
+  "hexo": {
+    "version": "8.1.2"
+  }
+}

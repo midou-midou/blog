@@ -1,0 +1,3 @@
+[submodule "source/_posts/midou-notes"]
+	path = source/_posts/midou-notes
+	url = git@github.com:midou-midou/notes.git

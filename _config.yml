@@ -9,7 +9,7 @@ description: '学习 生活 感想'
 keywords: Linux
 author: 米豆
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -44,13 +44,20 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
+  auto_detect: true
+  line_number: false
+  line_threshold: 0
+  tab_replace: "  "
+  exclude_languages:
+    - example
   wrap: true
-  hljs: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -93,7 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: northstar
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,0 +1,60 @@
+<script>
+(function() {
+  // Dark mode toggle
+  var toggle = document.getElementById('theme-toggle');
+  var html = document.documentElement;
+
+  function getTheme() {
+    var stored = localStorage.getItem('theme');
+    if (stored) return stored;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function setTheme(theme) {
+    html.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }
+
+  setTheme(getTheme());
+
+  if (toggle) {
+    toggle.addEventListener('click', function() {
+      var current = html.getAttribute('data-theme');
+      setTheme(current === 'dark' ? 'light' : 'dark');
+    });
+  }
+
+  // Back to top with scroll progress
+  var btn = document.getElementById('back-to-top');
+  if (btn) {
+    var fill = btn.querySelector('.progress-ring-fill');
+    var circumference = 2 * Math.PI * 20; // r=20
+
+    window.addEventListener('scroll', function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      var docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var progress = docHeight > 0 ? scrollTop / docHeight : 0;
+
+      // Update progress ring
+      fill.style.strokeDashoffset = circumference * (1 - progress);
+
+      // Show/hide button
+      if (scrollTop > 300) {
+        btn.classList.add('visible');
+      } else {
+        btn.classList.remove('visible');
+      }
+    });
+
+    btn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+})();
+</script>
+
+<% if (theme['midou-lightroom'].enable){ %>
+  <%- css('css/glightbox.min') %>
+  <%- js('js/glightbox.min') %>
+  <%- partial('lightbox') %>
+<% } %>

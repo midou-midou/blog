@@ -1,0 +1,148 @@
+// Sidebar / support rail styles
+.support-rail
+  width $rail-width
+  flex-shrink 0
+  position sticky
+  top 85px
+  display flex
+  flex-direction column
+  gap $space-5
+
+  @media (max-width: $tablet)
+    width 100%
+    position static
+    flex-direction row
+    flex-wrap wrap
+
+    .card
+      flex 1
+      min-width 200px
+
+.sidebar
+  display flex
+  flex-direction column
+  gap $space-5
+
+.sidebar-author,
+.sidebar-author-card
+  .author-name
+    font-family $font-display
+    font-size $font-lg
+    font-weight 600
+    color $text
+    margin-top $space-2
+
+  .author-bio
+    font-family $font-body
+    font-size $font-sm
+    color $text-muted
+    line-height 1.4
+
+.sidebar-topics
+  .topic-list
+    display flex
+    flex-wrap wrap
+    gap $space-3
+
+// TOC card
+.toc-card
+  card-base()
+  position sticky
+  top 80px
+
+.toc-label
+  font-family $font-mono
+  font-size $font-xs
+  font-weight 500
+  color $text-muted
+  margin-bottom $space-4
+  display block
+
+.toc-content
+  font-family $font-body
+  font-size $font-sm
+
+  ol
+    list-style none
+    padding 0
+
+  li
+    margin-bottom $space-2
+
+  a
+    color $text-muted
+    font-size $font-sm
+    line-height 1.5
+    display block
+    padding $space-1 0
+
+    &:hover
+      color $accent
+
+  .toc-child
+    padding-left $space-5
+
+    a
+      font-size $font-xs
+
+// Reading stats card
+.reading-stats-card
+  .stats-grid
+    display flex
+    flex-direction column
+    gap $space-5
+
+.stat-item
+  background $surface-subtle
+  border 1px solid $border
+  border-radius $radius-md
+  padding $space-5
+  display flex
+  flex-direction column
+  gap $space-1
+
+.stat-label
+  font-family $font-body
+  font-size $font-sm
+  color $text-eyebrow
+
+.stat-value
+  font-family $font-mono
+  font-size $font-xl
+  font-weight 600
+  color $text
+
+.stat-tags
+  display flex
+  flex-wrap wrap
+  gap $space-2
+
+// Subscribe card
+.subscribe-card
+  background $accent
+  border-radius $radius-lg
+  padding $space-7
+  color $accent-foreground
+
+  .subscribe-title
+    font-family $font-display
+    font-size $font-lg
+    font-weight 600
+
+  .subscribe-body
+    font-family $font-body
+    font-size $font-sm
+    line-height 1.4
+    opacity 0.85
+
+  .subscribe-btn
+    display inline-flex
+    align-items center
+    gap $space-2
+    background $surface
+    color $text
+    border-radius $radius-pill
+    padding $space-2 $space-5
+    font-family $font-mono
+    font-size $font-sm
+    margin-top $space-5
